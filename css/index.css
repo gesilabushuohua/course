@@ -41,10 +41,16 @@ body {
 .banner .title > h2 {
   font-size: 40px;
   text-transform: uppercase;
+  color: #7E1618;
+  
+}
+
+.hight-label {
   color: #DC1A1A;
+  font-size: 48px;
   text-shadow: 2px 2px 0 #ccc, 4px 4px 0 #ccc,
-    /* end of 2 level deep grey shadow */ 6px 6px 0 #444, 8px 8px 0 #444,
-    10px 10px 0 #444, 6px 6px 0 #444; /* end of 4 level deep dark shadow */
+  /* end of 2 level deep grey shadow */ 6px 6px 0 #444, 8px 8px 0 #444,
+  10px 10px 0 #444, 6px 6px 0 #444; /* end of 4 level deep dark shadow */
 }
 
 .banner > img {
@@ -117,6 +123,10 @@ body {
   margin: 0 auto;
   width: 1200px;
   padding: 64px 0;
+}
+
+.sub-lable {
+  margin-top: 32px;
 }
 
 
@@ -226,8 +236,7 @@ body {
 
 .list .item {
   display: block;
-  width: 300px;
-  height: 220px;
+  width: 260px;
   text-align: center;
   line-height: 100px;
   background-color: #D27F27;
@@ -237,11 +246,17 @@ body {
   font-weight: bolder;
   text-decoration: none;
   opacity: 0.9;
+  transition: all 0.4 ease;
+}
+
+.list .item:hover {
+  box-shadow: 4px 5px 10px #444;
+  transform:  scale(1.5);
 }
 
 .list .item img {
   display: block;
-  margin: 0 auto;
+  margin: 16px auto;
   width: 80px;
   height: 80px;
   border-radius: 12px;
