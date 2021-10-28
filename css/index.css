@@ -41,16 +41,14 @@ body {
 .banner .title > h2 {
   font-size: 40px;
   text-transform: uppercase;
-  color: #7E1618;
+  color: #DC1A1A;
   
 }
 
 .hight-label {
-  color: #DC1A1A;
+  color: #000;
   font-size: 48px;
-  text-shadow: 2px 2px 0 #ccc, 4px 4px 0 #ccc,
-  /* end of 2 level deep grey shadow */ 6px 6px 0 #444, 8px 8px 0 #444,
-  10px 10px 0 #444, 6px 6px 0 #444; /* end of 4 level deep dark shadow */
+ 
 }
 
 .banner > img {
@@ -58,7 +56,7 @@ body {
   width: 100%;
   object-fit: cover;
   object-position: center;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .section {
@@ -181,7 +179,7 @@ body {
 }
 
 .col img:hover {
-  transform: scale(2);
+  transform: scale(1.8);
   box-shadow: 4px 5px 10px #444;
 }
 
@@ -251,7 +249,7 @@ body {
 
 .list .item:hover {
   box-shadow: 4px 5px 10px #444;
-  transform:  scale(1.5);
+  transform:  scale(1.2);
 }
 
 .list .item img {
